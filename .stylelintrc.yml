@@ -1,0 +1,27 @@
+plugins:
+  - stylelint-scss
+  - stylelint-group-selectors
+extends:
+  - stylelint-config-standard-scss
+rules:
+  no-descending-specificity: null
+  string-quotes: single
+  max-empty-lines: 2
+  max-line-length: 150
+  selector-list-comma-newline-after: null
+  number-leading-zero: never
+  selector-class-pattern: null
+  selector-pseudo-element-colon-notation: single
+  selector-no-vendor-prefix: null
+  property-no-vendor-prefix: null
+  declaration-colon-newline-after: always-multi-line
+  value-keyword-case:
+    - lower
+    - camelCaseSvgKeywords: true
+  at-rule-disallowed-list:
+    - import
+  scss/dollar-variable-empty-line-before: null
+  scss/dollar-variable-colon-space-after: at-least-one-space
+  scss/selector-no-redundant-nesting-selector: true
+  scss/at-use-no-unnamespaced: true
+  plugin/stylelint-group-selectors: true

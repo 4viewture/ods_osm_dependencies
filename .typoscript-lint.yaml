@@ -1,0 +1,10 @@
+paths:
+  - DistributionPackages/**/Configuration
+
+filePatterns:
+  - "*.ts"
+  - "setup.txt"
+  - "*.typoscript"
+
+excludePatterns:
+  - "*/node_modules/**/*.ts"

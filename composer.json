@@ -1,0 +1,22 @@
+{
+  "name": "4viewture/ods-odm-dependencies",
+  "type": "typo3-cms-extension",
+  "description": "OpenStreetMap ods_osmDependencies",
+  "minimum-stability": "stable",
+  "license": "GPL-2.0-or-later",
+  "authors": [
+    {
+      "name": "Kay Strobach - 4viewture GmbH",
+      "email": "ks@4viewture.de"
+    }
+  ],
+  "require": {
+    "typo3\/cms-core": "^12.4",
+    "bobosch\/ods-osm": "^4.2"
+  },
+  "extra": {
+    "typo3/cms": {
+      "extension-key": "ods_odm_dependencies"
+    }
+  }
+}
