@@ -1,0 +1,27 @@
+{
+    "name": "4viewture/ods-osm-dependencies",
+    "description": "Provides the dependencies of ods_osm as TYPO3 Extension",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Kay Strobach",
+            "email": "ks@4viewture.de"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "wgirhad/geophp": "^3.0"
+    },
+    "require-dev": {
+        "dxw/phar-install": "dev-main"
+    },
+    "config": {
+        "classmap-authoritative": true,
+        "prepend-autoloader": false,
+        "optimize-autoloader": true
+    },
+    "scripts": {
+        "post-update-cmd": "vendor/bin/phar-install"
+    }
+}

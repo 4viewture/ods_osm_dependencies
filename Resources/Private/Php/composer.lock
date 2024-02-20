@@ -1,0 +1,135 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "4e7c0d23102e05d10bce8aa09ebc688f",
+    "packages": [
+        {
+            "name": "wgirhad/geophp",
+            "version": "v3.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/wgirhad/geoPHP.git",
+                "reference": "74f5b8bdc851cb92b8c07df99a437245f3878fcd"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/wgirhad/geoPHP/zipball/74f5b8bdc851cb92b8c07df99a437245f3878fcd",
+                "reference": "74f5b8bdc851cb92b8c07df99a437245f3878fcd",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.1|^8.0"
+            },
+            "provide": {
+                "geophp/geophp": "3.0.0"
+            },
+            "require-dev": {
+                "php-coveralls/php-coveralls": "2.*",
+                "phpbench/phpbench": "^1.0",
+                "phpstan/phpstan": "^1.4.0",
+                "phpunit/phpunit": "^8.0|^9.0",
+                "squizlabs/php_codesniffer": "3.*"
+            },
+            "suggest": {
+                "ext-geos": "GEOS allows more advanced operations"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "geoPHP\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0-or-later",
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Patrick Hayes",
+                    "role": "Original creator"
+                },
+                {
+                    "name": "Péter Báthory",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Willian Girhad",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Open-source native PHP library for doing geometry operations. Can read and write a wide variety of formats: (E)WKT, (E)WKB, TWKB, GeoJSON, KML, GPX, GeoRSS. Works with all Simple-Feature geometries (Point, LineString, Polygon...) and can be used to get centroids, bounding-boxes, area, etc.",
+            "homepage": "https://github.com/wgirhad/geoPHP",
+            "keywords": [
+                "Polygon",
+                "converter",
+                "geoPHP",
+                "geojson",
+                "geometry",
+                "gis",
+                "gpx",
+                "kml",
+                "linestring",
+                "twkb",
+                "wkb",
+                "wkt"
+            ],
+            "support": {
+                "source": "https://github.com/wgirhad/geoPHP/tree/v3.0.0"
+            },
+            "time": "2023-02-24T12:14:17+00:00"
+        }
+    ],
+    "packages-dev": [
+        {
+            "name": "dxw/phar-install",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/dxw/phar-install.git",
+                "reference": "5175ac9c8773cc3da4a7484c958a002cff9fa6f8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/dxw/phar-install/zipball/5175ac9c8773cc3da4a7484c958a002cff9fa6f8",
+                "reference": "5175ac9c8773cc3da4a7484c958a002cff9fa6f8",
+                "shasum": ""
+            },
+            "default-branch": true,
+            "bin": [
+                "bin/phar-install"
+            ],
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Mallory Adams",
+                    "email": "mallory@dxw.com",
+                    "homepage": "https://www.dxw.com"
+                }
+            ],
+            "homepage": "https://github.com/dxw/phar-install",
+            "support": {
+                "issues": "https://github.com/dxw/phar-install/issues",
+                "source": "https://github.com/dxw/phar-install/tree/main"
+            },
+            "time": "2022-10-06T16:56:30+00:00"
+        }
+    ],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "dxw/phar-install": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.3.0"
+}
